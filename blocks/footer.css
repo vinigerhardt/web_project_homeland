@@ -1,0 +1,38 @@
+.footer {
+  font-family: "Inter";
+  display: flex;
+  justify-content: center;
+  padding: 46px 0 24px;
+}
+
+.footer__register-mark {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    padding: 88px 0 24px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    padding: 64px 0 24px;
+  }
+
+  .footer__register-mark {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0 auto;
+  }
+}

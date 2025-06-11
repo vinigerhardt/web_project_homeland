@@ -1,0 +1,119 @@
+.intro {
+  font-family: "Inter";
+  max-width: 984px; /* de onde ele tirou esse numero ? */
+  padding: 0 0 46px; /* no dele tinha 46px no top*/
+  margin: 0 auto;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0 0 40px;
+  max-width: 85%;
+}
+
+.intro__citation {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  max-width: 77%;
+  margin: 0;
+}
+
+.intro__author {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  max-width: 74%;
+  margin: 10px 0;
+}
+
+.intro__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 30px 0 0;
+  max-width: 75%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    font-family: Inter;
+    padding: 0;
+    max-width: 720px;
+  }
+
+  .intro__title {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 100%;
+    margin: 0 0 50px;
+  }
+
+  .intro__citation {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 95%;
+  }
+
+  .intro__author {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .intro__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 32px 0 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    font-family: Inter;
+    margin: 0 auto;
+    max-width: 288px;
+  }
+
+  .intro__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 100%;
+    margin: 0 0 40px;
+  }
+
+  .intro__citation {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 100%;
+  }
+
+  .intro__author {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    max-width: 100%;
+    margin: 10px 0 32px;
+  }
+
+  .intro__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    max-width: 100%;
+    margin: 0;
+  }
+}
