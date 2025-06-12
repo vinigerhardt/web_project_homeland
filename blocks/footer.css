@@ -1,5 +1,5 @@
 .footer {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
   padding: 46px 0 24px;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     padding: 88px 0 24px;
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 544px) {
   .footer {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     padding: 64px 0 24px;
